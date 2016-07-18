@@ -10,9 +10,9 @@
  
 ###Bonus
  - [x] do not use <table> html element
-   - host the React Front End on a Node.js HTTP Server. 
-   - host project on heroku.com (it's free).
-   - add JEST unit tests - https://facebook.github.io/jest/
+  - [ ] host the React Front End on a Node.js HTTP Server. 
+  - [ ] host project on heroku.com (it's free).
+  - [ ] add JEST unit tests - https://facebook.github.io/jest/
  - [x] add README.RM
   
 -----------------
