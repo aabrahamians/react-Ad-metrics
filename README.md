@@ -3,7 +3,7 @@
 ##Made with React
 ###Requirements
 
- - [x] creatae a README file that explains how start the app 
+ - [x] create a README file that explains how start the app 
  - [x] host the source code in a github repository
  - [x] use the response data provided
  - [x] table area min-width must equl 500px
@@ -21,5 +21,5 @@
 - **Clone Repo**
 	- must have node
 	
-- **Enter npm start in command line**
-	- visit http://localhost:8080/ 
+- **Enter `npm start` in command line**
+	- visit `http://localhost:8080/` 
