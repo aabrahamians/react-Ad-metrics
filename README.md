@@ -1,4 +1,4 @@
-#Ad-Metrics analytics CodeChallange
+#Ad-Metrics analytics Code Challange
 
 ##Made with React
 ###Requirements
