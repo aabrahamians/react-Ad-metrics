@@ -1,7 +1,7 @@
 import React from "react";
 import {Table, Column, Cell} from 'fixed-data-table';
-import './../../fixed-data-table.min.css';
-import './../../style.css';
+import './fixed-data-table.min.css';
+import './style.css';
 import _ from 'lodash';
 
 
