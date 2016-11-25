@@ -4,7 +4,7 @@ var path = require('path');
 module.exports = {
   context: __dirname,
   devtool: debug ? "inline-sourcemap" : null,
-  entry: ["webpack/hot/dev-server", "./src/js/scripts"],
+  entry: ["webpack/hot/dev-server", "./src/js/scripts.min"],
    module: {
     loaders: [
       {

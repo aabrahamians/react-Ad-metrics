@@ -2,44 +2,25 @@
 1 verbose cli [ '/usr/local/Cellar/node/4.1.2/bin/node',
 1 verbose cli   '/usr/local/bin/npm',
 1 verbose cli   'run',
-1 verbose cli   'start-dev' ]
+1 verbose cli   'dev-script' ]
 2 info using npm@3.3.6
 3 info using node@v4.1.2
-4 verbose run-script [ 'prestart-dev', 'start-dev', 'poststart-dev' ]
-5 info lifecycle AdMetrics@1.0.0~prestart-dev: AdMetrics@1.0.0
-6 silly lifecycle AdMetrics@1.0.0~prestart-dev: no script for prestart-dev, continuing
-7 info lifecycle AdMetrics@1.0.0~start-dev: AdMetrics@1.0.0
-8 verbose lifecycle AdMetrics@1.0.0~start-dev: unsafe-perm in lifecycle true
-9 verbose lifecycle AdMetrics@1.0.0~start-dev: PATH: /usr/local/lib/node_modules/npm/bin/node-gyp-bin:/Users/aregabrahamians/Desktop/react-ad-metric/react-Ad-metrics/node_modules/.bin:/Users/aregabrahamians/.rbenv/shims:/Users/aregabrahamians/bin:/Users/aregabrahamians/.rbenv/shims:/Users/aregabrahamians/.rbenv/shims:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/opt/X11/bin
-10 verbose lifecycle AdMetrics@1.0.0~start-dev: CWD: /Users/aregabrahamians/Desktop/react-ad-metric/react-Ad-metrics
-11 silly lifecycle AdMetrics@1.0.0~start-dev: Args: [ '-c', 'webpack-dev-server --content-base src --inline --hot' ]
-12 silly lifecycle AdMetrics@1.0.0~start-dev: Returned: code: 1  signal: null
-13 info lifecycle AdMetrics@1.0.0~start-dev: Failed to exec start-dev script
-14 verbose stack Error: AdMetrics@1.0.0 start-dev: `webpack-dev-server --content-base src --inline --hot`
-14 verbose stack Exit status 1
-14 verbose stack     at EventEmitter.<anonymous> (/usr/local/lib/node_modules/npm/lib/utils/lifecycle.js:233:16)
-14 verbose stack     at emitTwo (events.js:87:13)
-14 verbose stack     at EventEmitter.emit (events.js:172:7)
-14 verbose stack     at ChildProcess.<anonymous> (/usr/local/lib/node_modules/npm/lib/utils/spawn.js:24:14)
-14 verbose stack     at emitTwo (events.js:87:13)
-14 verbose stack     at ChildProcess.emit (events.js:172:7)
-14 verbose stack     at maybeClose (internal/child_process.js:818:16)
-14 verbose stack     at Process.ChildProcess._handle.onexit (internal/child_process.js:211:5)
-15 verbose pkgid AdMetrics@1.0.0
-16 verbose cwd /Users/aregabrahamians/Desktop/react-ad-metric/react-Ad-metrics
-17 error Darwin 14.5.0
-18 error argv "/usr/local/Cellar/node/4.1.2/bin/node" "/usr/local/bin/npm" "run" "start-dev"
-19 error node v4.1.2
-20 error npm  v3.3.6
-21 error code ELIFECYCLE
-22 error AdMetrics@1.0.0 start-dev: `webpack-dev-server --content-base src --inline --hot`
-22 error Exit status 1
-23 error Failed at the AdMetrics@1.0.0 start-dev script 'webpack-dev-server --content-base src --inline --hot'.
-23 error This is most likely a problem with the AdMetrics package,
-23 error not with npm itself.
-23 error Tell the author that this fails on your system:
-23 error     webpack-dev-server --content-base src --inline --hot
-23 error You can get their info via:
-23 error     npm owner ls AdMetrics
-23 error There is likely additional logging output above.
-24 verbose exit [ 1, true ]
+4 verbose stack Error: missing script: dev-script
+4 verbose stack     at run (/usr/local/lib/node_modules/npm/lib/run-script.js:148:19)
+4 verbose stack     at /usr/local/lib/node_modules/npm/lib/run-script.js:58:5
+4 verbose stack     at /usr/local/lib/node_modules/npm/node_modules/read-package-json/read-json.js:345:5
+4 verbose stack     at checkBinReferences_ (/usr/local/lib/node_modules/npm/node_modules/read-package-json/read-json.js:309:45)
+4 verbose stack     at final (/usr/local/lib/node_modules/npm/node_modules/read-package-json/read-json.js:343:3)
+4 verbose stack     at then (/usr/local/lib/node_modules/npm/node_modules/read-package-json/read-json.js:113:5)
+4 verbose stack     at /usr/local/lib/node_modules/npm/node_modules/read-package-json/read-json.js:232:12
+4 verbose stack     at /usr/local/lib/node_modules/npm/node_modules/graceful-fs/graceful-fs.js:76:16
+4 verbose stack     at FSReqWrap.readFileAfterClose [as oncomplete] (fs.js:380:3)
+5 verbose cwd /Users/aregabrahamians/Desktop/react-ad-metric/react-Ad-metrics
+6 error Darwin 14.5.0
+7 error argv "/usr/local/Cellar/node/4.1.2/bin/node" "/usr/local/bin/npm" "run" "dev-script"
+8 error node v4.1.2
+9 error npm  v3.3.6
+10 error missing script: dev-script
+11 error If you need help, you may report this error at:
+11 error     <https://github.com/npm/npm/issues>
+12 verbose exit [ 1, true ]
